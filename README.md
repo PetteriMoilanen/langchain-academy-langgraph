@@ -1,8 +1,18 @@
 ![LangChain Academy](https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/66e9eba1020525eea7873f96_LCA-big-green%20(2).svg)
 
+## My version of the Introduction to LangGraph course by LangChain Academy repository
+
+This a fork of **Introduction to LangGraph** course repo. Course page: https://academy.langchain.com/courses/intro-to-langgraph.
+
+Some changes I've made to the original repo:
+- I've installed **langgraph-cli[inmem]** in the virtual environment, so I can use [LangGraph Studio](https://langchain-ai.github.io/langgraph/concepts/langgraph_studio/). See also [How to connect a local agent to LangGraph Studio](https://langchain-ai.github.io/langgraph/how-tos/local-studio/).
+- All usage of OpenAI has been replaced with free alternatives.
+- 
+
 ## Introduction
 
 Welcome to LangChain Academy! 
+
 This is a growing set of modules focused on foundational concepts within the LangChain ecosystem. 
 Module 0 is basic setup and Modules 1 - 4 focus on LangGraph, progressively adding more advanced themes. 
 In each module folder, you'll see a set of notebooks. A LangChain Academy accompanies each notebook 
