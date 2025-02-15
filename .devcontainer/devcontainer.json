@@ -23,7 +23,7 @@
 	// API keys from GitHub Secrets
 	"remoteEnv": {
     "GOOGLE_API_KEY": "${{ secrets.GOOGLE_API_KEY }}",
-    "TAVILY_API_KEY": "${{ secrets.GOOGLE_API_KEY }}"
+    "TAVILY_API_KEY": "${{ secrets.TAVILY_API_KEY }}"
   	},
 	// This line adds the Jupyter extension
 	//"customizations": {
