@@ -8,6 +8,7 @@ Some changes I've made to the original repo:
 - I've installed **langgraph-cli[inmem]** in the virtual environment, so I can use [LangGraph Studio](https://langchain-ai.github.io/langgraph/concepts/langgraph_studio/). See also [How to connect a local agent to LangGraph Studio](https://langchain-ai.github.io/langgraph/how-tos/local-studio/).
 - All usage of OpenAI has been replaced with free alternatives (or will be as I progress in the course).
 - GitHub Secrets are used for storing the API keys.
+- I've removed the LangSmith parts. LangChain Academy has a separate course for it.
 
 ## Introduction
 
